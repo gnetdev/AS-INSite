@@ -1,0 +1,112 @@
+img {
+    max-width: 100%;
+}
+
+/*-------------------------------------------
+    System Messages
+-------------------------------------------*/
+#system-message-container {
+    margin-bottom: 10px;
+}
+
+.inline #system-message-container,
+.form-inline #system-message-container {
+    margin-bottom: 0px;
+}
+
+#system-message {
+    margin: 0px;
+    padding: 0;
+}
+
+#system-message dt {
+    font-weight: bold;
+    width: 100%;
+}
+
+#system-message dd {
+    margin: 0;
+    font-weight: bold;
+    text-indent: 0px;
+    width: 100%;
+}
+
+#system-message dd ul {
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #539DD3;
+    background-color: #539DD3;
+    color: #FFFFFF;
+}
+
+/* System Standard Messages */
+#system-message dt.message {
+    display: none;
+}
+
+#system-message dd.message {
+    
+}
+
+/* System Error Messages */
+#system-message dt.error {
+    display: none;
+}
+
+#system-message dd.error ul {
+    background-color: #E6C0C0;
+    border: 1px solid #E6C0C0;
+    color: #CC0000;
+}
+
+/* System Notice Messages */
+#system-message dt.notice {
+    display: none;
+}
+
+#system-message dd.notice ul {
+    background-color: #EFE7B8;
+    border: 1px solid #EFE7B8;
+    color: #0C3569;
+}
+
+/* Debug */
+#system-debug {
+    color: #cccccc;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+#system-debug div {
+    font-size: 11px;
+}
+
+/*-------------------------------------------
+    Menus
+-------------------------------------------*/
+.sub-nav .active a {
+    background-color: #858585;
+    border-radius: 4px;
+}
+
+.datatable-header {
+    margin-bottom: 5px;
+}
+
+.datatable-header .pagination {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.form-limit-box.form-control {
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.max-height-200 {
+    max-height: 200px;
+    overflow: auto;
+}

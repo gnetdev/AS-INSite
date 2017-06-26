@@ -1,0 +1,116 @@
+/*
+ Responsive Mega Menu, Customized
+ 
+ Paste your customized CSS below and call it on your HTML file like this:
+	<link href="css/customized.css" rel="stylesheet">
+ 
+ Important: It must reside in your CSS/ folder.
+ 
+ Developed by Weborithm.
+ Follow me on twitter.com/weborithm
+ 
+*/
+.navbar-nav > li > .dropdown-menu {
+    border-width: 2px;
+    margin-top: 1px;
+}
+
+.navbar-nav .nav-title {
+    display: block;
+    font-weight: bolder;
+    border-bottom: 1px solid #f3f3f3;
+    margin-bottom: 5px;
+}
+
+.navbar-nav .nav-desc {
+    display: block;
+}
+
+/* Title */
+.dropdown-menu li.nav-title {
+display: block;
+padding: 0 0 2.5px;
+margin: 0 0 5px;
+font-size: 11px;
+line-height: 20px;
+color: #000;
+border-bottom: 1px solid #f5f5f5;
+text-transform: uppercase; 
+letter-spacing: 0.5px; }
+
+.dropdown-menu li.nav-title span.nav-title-description { display: block; color: #999; font-weight: normal; font-size: 14px; font-style: italic; text-transform: lowercase; }
+
+/* For menu separation */
+.dropdown li.dropdown-separator { margin: 0 0 10px; padding: 0; clear: both; content: " "; display: block; }
+
+.mega-menu-2 li,
+.mega-menu-3 li,
+.mega-menu-4 li,
+.mega-menu-5 li,
+.mega-menu-6 li { float: left; margin: 0 10px; }
+
+/* 2 Menus */
+.mega-menu-2>ul.dropdown-menu { width: 308px; }
+.mega-menu-2 ul ul { list-style: none; margin: 0 0 5px;  padding: 0 0 10px; float: left; width: 100%; }
+
+/* 3 Menus */
+.mega-menu-3>ul.dropdown-menu { width: 453px; }
+.mega-menu-3 ul ul { list-style: none; margin: 0 0 5px;  padding: 0 0 10px; float: left; width: 100%; }
+
+/* 4 Menus */
+.mega-menu-4>ul.dropdown-menu { width: 598px; }
+.mega-menu-4 ul ul { list-style: none; margin: 0 0 5px;  padding: 0 0 10px; float: left; width: 100%; }
+
+/* 5 Menus */
+.mega-menu-5>ul.dropdown-menu { width: 743px; }
+.mega-menu-5 ul ul { list-style: none; margin: 0 0 5px; padding: 0 0 10px; float: left; width: 100%; }
+
+/* 6 Menus*/
+.mega-menu-6 ul.dropdown-menu { width: 798px; }
+.mega-menu-6 ul ul { list-style: none; margin: 0 0 5px; padding: 0 0 10px !important; }
+
+/*
+ Custom Column widths
+*/
+.mega-menu-2 li.one-column,
+.mega-menu-3 li.one-column,
+.mega-menu-4 li.one-column,
+.mega-menu-5 li.one-column { width: 110px; margin: 0 10px; }
+.mega-menu-6 li.one-column { width: 95px; margin: 0 10px; }
+
+.mega-menu-2 li.two-column,
+.mega-menu-3 li.two-column,
+.mega-menu-4 li.two-column,
+.mega-menu-5 li.two-column { width: 255px; margin: 0 10px; }
+
+.mega-menu-6 li.two-column { width: 225px; margin: 0 10px; }
+
+.mega-menu-3 li.three-column,
+.mega-menu-4 li.three-column,
+.mega-menu-5 li.three-column { width: 400px; margin: 0 10px; }
+
+.mega-menu-6 li.three-column { width: 355px; margin: 0 10px; }
+
+.mega-menu-4 li.four-column,
+.mega-menu-5 li.four-column { width: 545px; margin: 0 10px; }
+
+.mega-menu-5 li.five-column { width: 690px; margin: 0 10px; }
+
+.mega-menu-6 li.four-column { width: 485px; margin: 0 10px; }
+.mega-menu-6 li.five-column { width: 615px; margin: 0 10px; }
+.mega-menu-6 li.six-column { width: 745px; margin-right: 0; }
+
+/* 979px and below */
+/*=================*/
+@media (min-width: 768px) and (max-width: 979px) {
+  .mega-menu-6 ul.dropdown-menu {
+    /* 
+    width: 750px;
+    top: 50px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    */ 
+  }
+
+}

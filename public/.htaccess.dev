@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# Redirect all www traffic to non-www
+RewriteCond %{HTTP_HOST} ^www\.
+RewriteCond %{HTTPS}s ^on(s)|off
+RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
+RewriteRule ^ %1%3%{REQUEST_URI} [R=301,L]
+
+# Force SSL on entire site
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php [L,QSA]
+
+#AuthUserFile "/var/www/banglebangle.com/public/.htpasswd"
+#AuthType Basic
+#AuthName "BangleBangle"
+#require valid-user
+
+AuthUserFile "/home/asingh/dev.amritasingh.com/public/.htpasswd"
+AuthType Basic
+AuthName "AS Dev"
+require valid-user

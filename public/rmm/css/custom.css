@@ -1,0 +1,30 @@
+/* http://twitter.github.com/bootstrap/scaffolding.html#responsive */
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) { 
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1140px) { 
+  .mega-menu ul.dropdown-menu { 
+    min-width: 648px;
+    position: fixed;
+    top: 50px; 
+  }
+}
+ 
+/* Default: 940px and up  */
+@media (min-width: 1140px) { 
+  .mega-menu-6 ul.dropdown-menu { min-width: 798px; }
+}
+ 
+/* Large desktop */
+@media (min-width: 1210px) { 
+  
+}

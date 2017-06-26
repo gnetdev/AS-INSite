@@ -1,0 +1,1 @@
+<?php echo $this->renderView('Amrita\Site\Views::home/version_1.php'); ?>

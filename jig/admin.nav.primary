@@ -1,0 +1,350 @@
+{
+    "5363c51d77c4a5.81781291": {
+        "priority": 40,
+        "key": "f3-assets",
+        "title": "Media Assets",
+        "route": "",
+        "icon": "fa fa-picture-o",
+        "children": [
+            {
+                "title": "Library",
+                "route": "\/admin\/assets",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Add New",
+                "route": "\/admin\/asset\/create",
+                "icon": "fa fa-plus"
+            }
+        ]
+    },
+    "5363c51d7adb26.09451946": {
+        "priority": 30,
+        "key": "f3-blog",
+        "title": "Blog",
+        "route": "",
+        "icon": "fa fa-keyboard-o",
+        "children": [
+            {
+                "title": "Posts",
+                "route": "\/admin\/blog\/posts",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Categories",
+                "route": "\/admin\/blog\/categories",
+                "icon": "fa fa-folder"
+            },
+            {
+                "title": "Add New",
+                "route": "\/admin\/blog\/category\/create",
+                "hidden": true
+            },
+            {
+                "title": "Settings",
+                "route": "\/admin\/blog\/settings",
+                "icon": "fa fa-cogs"
+            }
+        ]
+    },
+    "5363c51d7d1134.31696156": {
+        "priority": 50,
+        "title": "Emails",
+        "base": "\/admin\/mailer",
+        "route": "",
+        "icon": "fa fa-envelope",
+        "children": [
+            {
+                "title": "Dashboard",
+                "route": "\/admin\/mailer",
+                "icon": "fa fa-dashboard"
+            },
+            {
+                "title": "List",
+                "route": "\/admin\/mailer\/emails",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Settings",
+                "route": "\/admin\/mailer\/settings",
+                "icon": "fa fa-cogs"
+            }
+        ]
+    },
+    "5363c51d7d6c80.37720707": {
+        "priority": 40,
+        "key": "f3-redirect",
+        "title": "Mass Update",
+        "route": "",
+        "icon": "fa fa-signal",
+        "children": [
+            {
+                "title": "List Updaters",
+                "route": "\/admin\/massupdate\/updaters",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Settings",
+                "route": "\/admin\/massupdate\/settings",
+                "icon": "fa fa-cogs"
+            }
+        ]
+    },
+    "5363c51d7e41f0.08241592": {
+        "priority": 40,
+        "key": "f3-modules",
+        "title": "Modules",
+        "route": "",
+        "icon": "fa fa-building",
+        "children": [
+            {
+                "title": "List",
+                "route": "\/admin\/modules",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Add New",
+                "route": "\/admin\/module\/create",
+                "icon": "fa fa-plus"
+            }
+        ]
+    },
+    "5363c51d7e8474.45518929": {
+        "priority": 30,
+        "title": "Netsuite",
+        "route": "",
+        "icon": "fa fa-building",
+        "children": [
+            {
+                "title": "Imported Products",
+                "route": "\/admin\/netsuite\/importedproducts",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Import Custom Lists",
+                "route": "\/admin\/netsuite\/importCustomLists",
+                "icon": "fa fa-bullseye"
+            },
+            {
+                "title": "Export Shop Products",
+                "route": "\/admin\/netsuite\/exportShopProducts",
+                "icon": "fa fa-location-arrow"
+            },
+            {
+                "title": "Test Service",
+                "route": "\/admin\/netsuite\/service",
+                "icon": "fa fa-cogs"
+            }
+        ],
+        "base": "\/admin\/netsuite"
+    },
+    "5363c51d7fcca1.82761958": {
+        "priority": 30,
+        "key": "f3-pages",
+        "title": "Pages",
+        "route": "",
+        "icon": "fa fa-file-text",
+        "children": [
+            {
+                "title": "Pages",
+                "route": "\/admin\/pages\/pages",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Categories",
+                "route": "\/admin\/pages\/categories",
+                "icon": "fa fa-folder"
+            }
+        ]
+    },
+    "5363c51d803836.51445333": {
+        "priority": 40,
+        "key": "f3-redirect",
+        "title": "Redirects",
+        "route": "",
+        "icon": "fa fa-external-link",
+        "children": [
+            {
+                "title": "List",
+                "route": "\/admin\/redirect\/routes",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Settings",
+                "route": "\/admin\/redirect\/settings",
+                "icon": "fa fa-cogs"
+            }
+        ]
+    },
+    "5363c51d80cae8.03496948": {
+        "priority": 20,
+        "title": "Shop",
+        "route": "",
+        "icon": "fa fa-ticket",
+        "children": [
+            {
+                "title": "Orders",
+                "route": "\/admin\/shop\/orders",
+                "icon": "fa fa-money"
+            },
+            {
+                "title": "Products",
+                "route": "\/admin\/shop\/products",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Collections",
+                "route": "\/admin\/shop\/collections",
+                "icon": "fa fa-hdd"
+            },
+            {
+                "title": "Categories",
+                "route": "\/admin\/shop\/categories",
+                "icon": "fa fa-folder"
+            },
+            {
+                "title": "Coupons",
+                "route": "\/admin\/shop\/coupons",
+                "icon": "fa fa-barcode"
+            },
+            {
+                "title": "Manufacturers",
+                "route": "\/admin\/shop\/manufacturers",
+                "icon": "fa fa-barcode"
+            },
+            {
+                "title": "Media Assets",
+                "route": "\/admin\/assets?filter[type]=shop.assets",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Tags",
+                "route": "\/admin\/shop\/tags",
+                "icon": "fa fa-tag"
+            },
+            {
+                "title": "Countries",
+                "route": "\/admin\/shop\/countries",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Regions",
+                "route": "\/admin\/shop\/regions",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Settings",
+                "route": "\/admin\/shop\/settings",
+                "icon": "fa fa-cogs"
+            }
+        ],
+        "base": "\/admin\/shop"
+    },
+    "5363c51d812b03.91395844": {
+        "priority": 30,
+        "key": "fa-user",
+        "title": "Users",
+        "route": "",
+        "icon": "fa fa-user",
+        "children": [
+            {
+                "title": "List",
+                "route": "\/admin\/users",
+                "icon": "fa fa-user"
+            },
+            {
+                "title": "Groups",
+                "route": "\/admin\/users\/groups",
+                "icon": "fa fa-group"
+            },
+            {
+                "title": "Roles",
+                "route": "\/admin\/users\/roles",
+                "icon": "fa fa-unlock"
+            },
+            {
+                "title": "Settings",
+                "route": "\/admin\/users\/settings",
+                "icon": "fa fa-cogs"
+            }
+        ]
+    },
+    "5363c51d81c1b4.46381865": {
+        "priority": 10,
+        "key": "f3-amrita",
+        "title": "Amrita",
+        "route": "",
+        "icon": "fa fa-female",
+        "children": [
+            {
+                "title": "Homepage",
+                "route": "\/admin\/amrita\/site\/home",
+                "icon": "fa fa-home"
+            },
+            {
+                "title": "Shop Homepage",
+                "route": "\/admin\/amrita\/shop\/home",
+                "icon": "fa fa-shopping-cart"
+            }
+        ]
+    },
+    "5363c51d827be0.36340433": {
+        "priority": 99,
+        "title": "Navigation",
+        "route": "",
+        "icon": "fa fa-tasks",
+        "children": [
+            {
+                "title": "Menus",
+                "route": "\/admin\/menus",
+                "icon": "fa fa-list"
+            },
+            {
+                "title": "Add New Menu",
+                "route": "\/admin\/menu",
+                "icon": "fa fa-plus",
+                "hidden": true
+            },
+            {
+                "title": "Menu Items",
+                "route": "\/admin\/menus\/items",
+                "icon": "fa fa-sitemap",
+                "hidden": true
+            },
+            {
+                "title": "Add New Menu Item",
+                "route": "\/admin\/menus\/item",
+                "icon": "fa fa-plus",
+                "hidden": true
+            }
+        ]
+    },
+    "5363c51d830a41.95482991": {
+        "priority": 100,
+        "title": "System",
+        "route": "",
+        "icon": "fa fa-cogs",
+        "children": [
+            {
+                "title": "Settings",
+                "route": "\/admin\/settings",
+                "icon": "fa fa-cogs"
+            },
+            {
+                "title": "Rebuild Admin Menu",
+                "route": "\/admin\/system\/rebuildAdminMenu",
+                "icon": "fa fa-retweet"
+            },
+            {
+                "title": "Diagnostics",
+                "route": "\/admin\/system\/diagnostics",
+                "icon": "fa fa-heart"
+            },
+            {
+                "title": "Logs",
+                "route": "\/admin\/logs",
+                "icon": "fa fa-list"
+            }
+        ]
+    }
+}
