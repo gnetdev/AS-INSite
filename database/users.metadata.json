@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "name" : "_id_", "ns" : "india.users" }, { "v" : 1, "unique" : true, "key" : { "email" : 1 }, "name" : "email", "ns" : "india.users" }, { "v" : 1, "key" : { "metadata.created.time" : 1 }, "name" : "created_time", "ns" : "india.users" }, { "v" : 1, "key" : { "last_visit.time" : 1 }, "name" : "last_visit", "ns" : "india.users" } ] }
